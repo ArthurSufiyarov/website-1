@@ -1,0 +1,150 @@
+@media screen and (min-width: 1024px) {
+	body {
+		width: auto;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.container-right {
+		display: none;
+	}
+	body {
+		width: 952px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 768px) {
+	
+	.container-right {
+		display: none;
+	}
+	.col1 {
+		display: none;
+	}
+	body {
+		width: 768px;
+	}
+	.wrapper {
+		width: 768px;
+	}
+/*
+	.down-container {
+		width: 768px;
+	}
+*/
+	.menu-logo {
+		display: none;
+	}
+	.mobil-menu {
+		display: block;
+
+	}
+	.ac-menu {
+		width: 768px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+	}
+	.color-menu {
+		box-sizing: border-box;
+		display: none;
+		flex-direction: row;
+		justify-content: space-between;
+		height: 50px;
+	}
+
+	.cd-accordion-menu input[type=checkbox] {
+		position: absolute;
+		opacity: 0;
+}
+	.has {
+		width: 768px;
+	}
+	.has label:before {
+		content: "+";
+		position: relative;
+		right: 30px;
+		color: #1e6db0;
+	}
+	.has label {
+		box-sizing: border-box;
+		height: 54px;
+		width: 768px;
+		display: block;
+		font-size: 54px;
+		text-align: center;
+		color: #1e6db0;
+	}
+	.cd-accordion-menu ul {
+    	display: none;
+	}
+	.cd-accordion-menu input[type=checkbox]:checked + label + ul {
+    	display: block;
+	}
+	.cd-accordion-menu input[type=checkbox]:checked + label:before {
+		content: "--";
+	}
+	.has-children {
+		display: flex;
+		width: 768px;
+	}
+	.color1-mobil {
+		box-sizing: border-box;
+		height: auto;
+		width: 3px;
+		background-color:#c1272d; 
+	}
+	.color1-mobil:hover {
+		background-color: #c1272d;
+	}
+	.color2-mobil {
+		height: auto;
+		width: 3px;
+		background-color:#f15a24; 
+	}
+	.color3-mobil {
+		height: auto;
+		width: 3px;
+		background-color:#fbb03b; 
+	}
+	.color4-mobil {
+		height: auto;
+		width: 3px;
+		background-color:#8cc63f; 
+	}
+	.color5-mobil {
+		height: auto;
+		width: 3px;
+		background-color:#29abe2; 
+	}
+	.color6-mobil {
+		height: auto;
+		width: 3px;
+		background-color:#0071bc; 
+	}
+	.color7-mobil {
+		height: auto;
+		width: 3px;
+		background-color:#2e3192; 
+	}
+	.cm-menu {
+		border-top: 3px solid #2e3192;
+		height: 60px;
+		margin-bottom: 15px;
+	}
+	.cm-last {
+		border-bottom: 3px solid #2e3192;
+		height: 60px;
+	}
+	.cm-first {
+		border-top: 3px solid #c1272d;
+		height: 60px;
+	}
+	
+	.mobil-font {
+		font-size: 43px;
+		color: #000;
+		text-align: center;
+		width: 100%;
+	}
+	
+}
